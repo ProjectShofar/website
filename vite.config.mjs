@@ -31,11 +31,11 @@ export default defineConfig({
       output: {
         manualChunks: {
           framework: ['react-icons'],
-          vendor: ['react', 'react-router', 'react-dom'],
+          vendor: ['react', 'react-router-dom', 'react-dom'],
         },
-        entryFileNames: `assets/[name].js`,
-        chunkFileNames: `assets/[name].js`,
-        assetFileNames: `assets/[name].[ext]`
+        entryFileNames: `assets/[name].[hash].js`,
+        chunkFileNames: `assets/[name].[hash].js`,
+        assetFileNames: `assets/[name].[hash].[ext]`,
       },
     },
   }
