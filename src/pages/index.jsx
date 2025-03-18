@@ -11,7 +11,7 @@ import { IoArrowForward, IoCaretForwardCircle } from "react-icons/io5";
 export default function Index() {
     return (
         <>
-            <div className="container w-full mx-auto h-[700px] grid md:flex justify-center items-center relative border-x border-black/10 px-8">
+            <div className="container w-full mx-auto h-[700px] grid md:flex justify-center items-center relative border-x border-black/10 px-8 overflow-hidden">
                 <div className="flex-2 z-[1000]">
                     <div className="text-5xl mb-5">打破屏障，</div>
                     <div className='text-5xl'>让自由的声音无处不在。</div>
@@ -108,9 +108,9 @@ export default function Index() {
                 </div>
             </div>
             <div className='w-full border-t border-black/10'>
-                <div className="py-4 px-8 flex items-center justify-between border-b border-black/10 container mx-auto border-x border-black/10 text-sm">
-                    <div >Shofar 2025 © 保留所有权利</div>
-                    <div className="flex items-center gap-5 cursor-pointer">
+                <div className="py-4 px-8 items-center justify-between border-b border-black/10 container mx-auto border-x border-black/10 text-sm flex">
+                    <div >Shofar<br />2025 © 保留所有权利</div>
+                    <div className="md:flex items-center gap-5 cursor-pointer mt-4">
                         <div onClick={() => window.location.href = 'https://github.com/projectshofar'}>Github</div>
                         <div>隐私政策</div>
                         <div>服务条款</div>
