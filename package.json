@@ -27,6 +27,8 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "cookie": ">=0.7.0",
+    "esbuild": ">=0.25.0",
     "@eslint/js": "^9.21.0",
     "@types/node": "^22.13.10",
     "@types/react": "^19.0.10",
