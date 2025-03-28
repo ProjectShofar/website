@@ -19,8 +19,8 @@ export default function Index() {
                         Shofar 不是VPN，通过 Shofar 可以构建全新一代的VPN。<br />
                         透过 Shofar 帮助身边的人加速访问全球互联网，获取新闻、资讯。
                     </div>
-                    <div className='cursor-pointer bg-blue-800 px-4 py-2 text-white mt-8 inline-flex'>从这里开始学习构建</div>
-                    <div className='mt-8'>获取由 Shofar 构建的免费VPN</div>
+                    {/* <div className='cursor-pointer bg-blue-800 px-4 py-2 text-white mt-8 inline-flex'>从这里开始学习构建</div>
+                    <div className='mt-8'>获取由 Shofar 构建的免费VPN</div> */}
                 </div>
                 <div className='h-full flex-1 z-[100] relative opacity-30 md:opacity-100'>
                     <AnimatedGridPattern
@@ -94,7 +94,7 @@ export default function Index() {
                             <div className="text-left opacity-70 text-sm mt-4">
                                 ShofarAPP 是一款基于 Sing-box 的完全开源翻墙工具，旨在让网络自由变得更加简单、安全、可信。Shofar 在希伯来语中意为号角，象征着信息的传播与自由。ShofarAPP 继承了 Sing-box 强大的代理功能，同时优化了用户体验，使得翻墙操作更加便捷，即使是小白用户也能轻松上手。ShofarAPP 的核心理念是 开源透明 和 信任至上，所有代码均公开，用户可自由查看、审计或自行编译，确保无后门、无恶意代码。无论是科学上网、隐私保护，还是突破网络封锁，ShofarAPP 都致力于为用户提供稳定、高效的解决方案，让每个人都能自由访问互联网。
                             </div>
-                            <div className='cursor-pointer px-4 py-2 mt-8 inline-flex border border-blue-800 text-blue-800 flex items-center gap-2'>获取源代码<IoArrowForward /></div>
+                            <div onClick={() => window.location.href = 'https://github.com/projectshofar/shofarapp'} className='cursor-pointer px-4 py-2 mt-8 inline-flex border border-blue-800 text-blue-800 flex items-center gap-2'>获取源代码<IoArrowForward /></div>
                         </div>
                         <div id='tokea-platform' className="flex-1 p-10 border border-black/10">
                             <Lottie className="h-[200px]" animationData={TokeaPlatformLottie} loop={true} />
@@ -102,7 +102,7 @@ export default function Index() {
                             <div className="text-left opacity-70 text-sm mt-4">
                                 TokeaPlatform，意为 “掌号者”，象征着 执掌号角，传播自由。它是一个 去中心化 VPN 搭建平台，让用户能够 轻松创建、管理并分享自己的 VPN 网络，摆脱传统 VPN 服务的限制，真正掌控自己的网络自由。提供一键部署、设备互联、跨平台兼容的功能，让用户无需复杂配置，即可建立专属的小团体VPN网络，实现安全、私密的通讯。无论是朋友间共享安全上网，还是团队搭建私密通讯网络，TokeaPlatform 都能提供稳定、高速、去中心化的连接，确保数据隐私不被第三方干涉，助力每个人自由、安全地探索互联网世界。
                             </div>
-                            <div className='cursor-pointer px-4 py-2 mt-8 inline-flex border border-blue-800 text-blue-800 flex items-center gap-2'>获取源代码<IoArrowForward /></div>
+                            <div onClick={() => window.location.href = 'https://github.com/projectshofar/tokea'} className='cursor-pointer px-4 py-2 mt-8 inline-flex border border-blue-800 text-blue-800 flex items-center gap-2'>获取源代码<IoArrowForward /></div>
                         </div>
                     </div>
                 </div>
